@@ -30,7 +30,7 @@ function Navbar(props) {
   window.addEventListener('resize', showButton);
 
   return (
-    <div>
+    <>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
@@ -65,7 +65,7 @@ function Navbar(props) {
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
-    </div>
+    </>
   );
 }
 
