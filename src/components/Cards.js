@@ -1,11 +1,6 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
-import Img9 from '../images/img-9.jpg'
-import Img2 from '../images/img-2.jpg'
-import Img3 from '../images/img-3.jpg'
-import Img4 from '../images/img-4.jpg'
-import Img8 from '../images/img-8.jpg'
 
 function Cards(props) {
   return (
@@ -15,13 +10,13 @@ function Cards(props) {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem 
-              src={Img9}
+              src="./images/img-9.jpg"  
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label="Adventure"
               path="/services"
             />
             <CardItem 
-              src={Img2}  
+              src="./images/img-2.jpg"  
               text="Travel through the Islands of Bali in a Private Cruise"
               label="Luxury"
               path="/services"
@@ -29,19 +24,21 @@ function Cards(props) {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={Img3}
+              src='./images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/services'
             />
             <CardItem
-              src={Img4}
+              src='./images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
+
+              
               path='/products'
             />
             <CardItem
-              src={Img8}
+              src='./images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
               path='/sign-up'
