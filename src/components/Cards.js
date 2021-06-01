@@ -33,8 +33,6 @@ function Cards(props) {
               src='./images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-
-              
               path='/products'
             />
             <CardItem
